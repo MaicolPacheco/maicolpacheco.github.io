@@ -2062,7 +2062,7 @@ input, select, textarea {
 
 	form {
 		
-		padding: 5% 12%;
+		padding: 5% 18%;
 	}
 
 	label {
@@ -2368,7 +2368,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
+			padding: 10 1.5em 1em 0;
 			top: 0.25em;
 		}
 
@@ -2393,7 +2393,8 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				
+				width:   100%;
 			}
 
 /* List */
@@ -2828,7 +2829,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay2.png"), url("../../images/cap1.jpg");
+			background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
 			background-size: auto,							cover;
 		}
 
@@ -2921,8 +2922,8 @@ input, select, textarea {
 		
 
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/cap2.jpg");
-		/*background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
+		/*background-image: url("images/cap2.jpg");,linear-gradient(to right, #1c92d2, #f2fcfe)*/
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"),  linear-gradient(to right, #56ccf2, #2f80ed);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3118,7 +3119,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3515,3 +3516,102 @@ input, select, textarea {
 			}
 
 	}
+
+
+	/* Header */
+
+	#menu {
+		padding: 1em 0 0 40em ;
+		background-color: #4686a0;
+		color: rgba(255, 255, 255, 0.75);
+		
+
+		background-attachment: fixed,							fixed,							fixed;
+		/*background-image: url("images/cap2.jpg");,linear-gradient(to right, #1c92d2, #f2fcfe)*/
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"),  linear-gradient(to right, #56ccf2, #2f80ed);
+		background-position: top left,						left left,					left left;
+		background-size: auto,							cover,							cover;
+		overflow: hidden;
+		position: inherit;
+		text-align: center;
+	}
+ul.rr{
+	overflow: hidden;
+}
+li.r{
+	float: left;
+}
+	#menu a:hover {
+		color: #ffffff;
+	}
+	#menu a {
+		border-bottom-color: rgba(255, 255, 255, 0.5);
+	}
+
+		#menu a:hover {
+			color: #ffffff;
+		}
+
+	#menu h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
+		color: #ffffff;
+	}
+
+	#menu menu p {
+		color: #ffffff;
+	}
+
+	#menu menu.major:after {
+		background: #ffffff;
+	}
+
+	#menu input[type="submit"],
+	#menu input[type="reset"],
+	#menu input[type="button"],
+	#menu button,
+	#menu .button {
+		box-shadow: inset 0 0 0 1px #ffffff;
+		color: #ffffff !important;
+	}
+
+		#menu input[type="submit"]:hover,
+		#menu input[type="reset"]:hover,
+		#menu input[type="button"]:hover,
+		#menu button:hover,
+		#menu .button:hover {
+			background-color: rgba(255, 255, 255, 0.125);
+		}
+
+		#menu input[type="submit"]:active,
+		#menu input[type="reset"]:active,
+		#menu input[type="button"]:active,
+		#menu button:active,
+		#menu .button:active {
+			background-color: rgba(255, 255, 255, 0.25);
+		}
+
+		#menu input[type="submit"].primary,
+		#menu input[type="reset"].primary,
+		#menu input[type="button"].primary,
+		#menu button.primary,
+		#menu .button.primary {
+			background-color: #ffffff;
+			box-shadow: inset 0 0 0 1px #ffffff !important;
+			color: #4686a0 !important;
+		}
+
+			#menu input[type="submit"].primary:hover,
+			#menu input[type="reset"].primary:hover,
+			#menu input[type="button"].primary:hover,
+			#menu button.primary:hover,
+			#menu .button.primary:hover {
+				background-color: rgba(255, 255, 255, 0.125) !important;
+				color: #ffffff !important;
+			}
+
+			#menu input[type="submit"].primary:active,
+			#menu input[type="reset"].primary:active,
+			#menu input[type="button"].primary:active,
+			#menu button.primary:active,
+			#menu .button.primary:active {
+				background-color: rgba(255, 255, 255, 0.25) !important;
+			}
