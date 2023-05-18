@@ -35,6 +35,7 @@ body {
 
 ol, ul {
 	list-style: none;
+	
 }
 
 blockquote, q {
@@ -131,12 +132,16 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		
+		
+		
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #555;
 		line-height: 1em;
 		margin: 0 0 1em 0;
+		
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -375,6 +380,7 @@ input, select, textarea {
 
 		.row > .col-6 {
 			width: 50%;
+			
 		}
 
 		.row > .off-6 {
@@ -498,11 +504,13 @@ input, select, textarea {
 				}
 
 		.row.gtr-150 {
+			
 			margin-top: 0;
 			margin-left: -3em;
 		}
 
 			.row.gtr-150 > * {
+			
 				padding: 0 0 0 3em;
 			}
 
@@ -2011,12 +2019,14 @@ input, select, textarea {
 		color: #999;
 		margin: 0 0 1.5em 0;
 		position: relative;
+		
 	}
 
 	header h2 + p {
 		font-size: 1.25em;
 		line-height: 1.5em;
 		margin-top: -1em;
+		
 	}
 
 	header h3 + p {
@@ -2035,6 +2045,7 @@ input, select, textarea {
 
 	header.major {
 		margin: 0 0 1em 0;
+		
 	}
 
 		header.major:after {
@@ -2052,10 +2063,12 @@ input, select, textarea {
 
 		header.major p {
 			margin: 0.7em 0 0 0;
+			
 		}
 
 	header.special {
 		text-align: center;
+		
 	}
 
 /* Form */
@@ -2410,9 +2423,11 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		
+		
 	}
 
 		ul li {
@@ -2818,7 +2833,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 5em 0 4em 0 ;
 	}
 
 		.main.style1 {
@@ -2826,10 +2841,15 @@ input, select, textarea {
 		}
 
 		.main.style2 {
-			background-color: #333;
+		
+		
+		
+			background-color: #000000;
+			
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+			background-image: url(images/md3.1.png);
+			/*background-image: url("images/overlay.png"), url("images/overlay4.svg"), linear-gradient(to bottom, #4e54c8, #8f94fb); */
 			background-size: auto,							cover;
 		}
 
@@ -2843,14 +2863,20 @@ input, select, textarea {
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
 				color: #ffffff;
+				font-weight: bold;
+			align-items: center;
 			}
 
 			.main.style2 header p {
 				color: #ffffff;
+				
+				
+				
 			}
 
 			.main.style2 header.major:after {
 				background: #ffffff;
+
 			}
 
 			.main.style2 input[type="submit"],
@@ -2916,14 +2942,17 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		background-image: url(images/md3.1.png);
+		position: center;
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: #EF476F;
 		color: rgba(255, 255, 255, 0.75);
 		
 
-		background-attachment: fixed,							fixed,							fixed;
-		/*background-image: url("images/cap2.jpg");,linear-gradient(to right, #1c92d2, #f2fcfe)*/
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"),  linear-gradient(to right, #56ccf2, #2f80ed);
+		background-attachment: fixed,	              fixed,							fixed;
+	
+		/*background-image:  linear-gradient(to bottom, #4e54c8, #8f94fb);
+		/*background-image: url("images/overlay2.png"), url("images/overlay3.svg"),  linear-gradient(to right, #56ccf2, #2f80ed);*/
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2941,10 +2970,14 @@ input, select, textarea {
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
 			color: #ffffff;
+			font-weight: bold;
+			
+
 		}
 
 		#header header p {
 			color: #ffffff;
+			font-weight: bold;
 		}
 
 		#header header.major:after {
@@ -2958,6 +2991,7 @@ input, select, textarea {
 		#header .button {
 			box-shadow: inset 0 0 0 1px #ffffff;
 			color: #ffffff !important;
+			
 		}
 
 			#header input[type="submit"]:hover,
@@ -3013,10 +3047,13 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0;
+			
 		}
 
 		#header p {
 			margin: 1em 0 0 0;
+			color: #ffff;
+			
 		}
 
 		#header .actions {
@@ -3115,11 +3152,12 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0 ;
+		padding: 6em 0 2em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+		background-image: url(images/md3.1.png);
+		/*background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);*/
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3528,7 +3566,7 @@ input, select, textarea {
 
 		background-attachment: fixed,							fixed,							fixed;
 		/*background-image: url("images/cap2.jpg");,linear-gradient(to right, #1c92d2, #f2fcfe)*/
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"),  linear-gradient(to right, #56ccf2, #2f80ed);
+		background-image: url(images/md3.1.png);
 		background-position: top left,						left left,					left left;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -3569,7 +3607,7 @@ li.r{
 	#menu input[type="button"],
 	#menu button,
 	#menu .button {
-		box-shadow: inset 0 0 0 1px #ffffff;
+		border-bottom: none;
 		color: #ffffff !important;
 	}
 
