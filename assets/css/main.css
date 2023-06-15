@@ -2402,7 +2402,8 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 70%;
+			width: 100%;
+			
 		}
 
 			.image.fit img {
@@ -3566,7 +3567,7 @@ input, select, textarea {
 
 		background-attachment: fixed,							fixed,							fixed;
 		/*background-image: url("images/cap2.jpg");,linear-gradient(to right, #1c92d2, #f2fcfe)*/
-		background-image: url(images/nave5.jpeg);
+		background-image: url(images/md3.1.png);
 		background-position: top left,						left left,					left left;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
