@@ -797,7 +797,7 @@
 					input[type="button"],
 					button,
 					.button {
-						width: 100%;
+						width: 110%;
 
 						&.icon {
 							&:before {
@@ -1133,6 +1133,7 @@
 
 		p {
 			margin: (_size(element-margin) * 0.5) 0 0 0;
+			
 		}
 
 		.actions {
