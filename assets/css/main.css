@@ -3579,15 +3579,19 @@ input, select, textarea {
 	}
 ul.rr{
 	overflow: hidden;
+	
 }
 li.r{
 	float: left;
+	
 }
 	#menu a:hover {
 		color: #ffffff;
+		
 	}
 	#menu a {
 		border-bottom-color: rgba(255, 255, 255, 0.5);
+		
 	}
 
 		#menu a:hover {
@@ -3604,6 +3608,7 @@ li.r{
 
 	#menu menu.major:after {
 		background: #ffffff;
+		
 	}
 
 	#menu input[type="submit"],
@@ -3636,9 +3641,9 @@ li.r{
 		#menu input[type="button"].primary,
 		#menu button.primary,
 		#menu .button.primary {
-			background-color: #ffffff;
-			box-shadow: inset 0 0 0 1px #ffffff !important;
-			color: #4686a0 !important;
+			background-image: url(images/md3.1.png);
+			box-shadow: inset 0 0 0 0px #4686a0 ;
+			color: white!important;
 		}
 
 			#menu input[type="submit"].primary:hover,
